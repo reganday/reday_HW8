@@ -1,14 +1,17 @@
-/* fonts*/
-/*Playfair for Titles, Source Sans for body*/
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap')
-@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap')
 
 
-body{
-    background-color: offwhite;
-}
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+body {
+    font-family: "Quattrocento Sans", sans-serif;
+    background-color: #f9f9f9;
+  }
 
 h1 {
+    font-family: "Playfair Display", serif;
     font-size: 2rem;
   }
   
@@ -25,6 +28,7 @@ h1 {
   }
   
   nav {
+    font-family: "Quattrocento Sans", sans-serif;
     background-color: black;
   }
   
